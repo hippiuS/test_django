@@ -78,5 +78,6 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         cluster: Regular-Cluster
-        launch-type: EC2
-        Number-of-tasks: 1
+        service: dock
+        wait-for-service-stability: true
+
