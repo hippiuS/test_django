@@ -51,7 +51,7 @@
   "placementConstraints": [],
   "memory": null,
   "taskRoleArn": null,
-  "family": "docker",
+  "family": "ghostscreen-api",
   "pidMode": null,
   "networkMode": "bridge",
   "cpu": null,
