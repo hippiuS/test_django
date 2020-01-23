@@ -28,7 +28,7 @@
       "memoryReservation": 256,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "253186535795.dkr.ecr.eu-central-1.amazonaws.com/repo:latest",
+      "image": "701793130148.dkr.ecr.eu-central-1.amazonaws.com/ghostscreen-api:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
