@@ -51,33 +51,16 @@
   "placementConstraints": [],
   "memory": null,
   "taskRoleArn": null,
-  "compatibilities": [
-    "EC2"
-  ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:253186535795:task-definition/docker:1",
+  "compatibilities": [],
+  "taskDefinitionArn": "",
   "family": "docker",
-  "requiresAttributes": [
-    {
-      "targetId": null,
-      "targetType": null,
-      "value": null,
-      "name": "com.amazonaws.ecs.capability.ecr-auth"
-    },
-    {
-      "targetId": null,
-      "targetType": null,
-      "value": null,
-      "name": "com.amazonaws.ecs.capability.docker-remote-api.1.21"
-    }
-  ],
+  "requiresAttributes": [],
   "pidMode": null,
-  "requiresCompatibilities": [
-    "EC2"
-  ],
+  "requiresCompatibilities": [],
   "networkMode": "bridge",
   "cpu": null,
-  "revision": 1,
-  "status": "ACTIVE",
+  "revision": null,
+  "status": null,
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
   "volumes": []
