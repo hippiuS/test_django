@@ -59,7 +59,7 @@
   "status": null,
   "compatibilities": [
     "EC2"
-  ]
+  ],
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
   "volumes": []
