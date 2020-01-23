@@ -51,7 +51,6 @@
   "placementConstraints": [],
   "memory": null,
   "taskRoleArn": null,
-  "taskDefinitionArn": "",
   "family": "docker",
   "pidMode": null,
   "networkMode": "bridge",
