@@ -45,7 +45,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "docker"
+      "name": "ghostscreen-api"
     }
   ],
   "placementConstraints": [],
