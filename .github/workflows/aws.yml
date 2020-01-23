@@ -55,7 +55,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: repo
+        ECR_REPOSITORY: ghostscreen-api
         IMAGE_TAG: ${{ github.sha }}
       run: |
         # Build a docker container and
@@ -70,14 +70,14 @@ jobs:
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
         task-definition: task-definition.json
-        container-name: docker
+        container-name: ghostscreen-api
         image: ${{ steps.build-image.outputs.image }}
 
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        cluster: Regular-Cluster
-        service: dock
+        cluster: ghostscreen-api
+        service: ghostscreen-api-service
         wait-for-service-stability: true
 
